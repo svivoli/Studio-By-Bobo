@@ -3,8 +3,8 @@
 /* navigation */
 .logo {
   margin-left: 25px;
-  font-family: 'Marck Script', cursive;
-  font-size: 40px;
+  font-family: 'Indie Flower', cursive;
+  font-size: 25px;
 }
 .ant-menu-inline {
   border-right: none;
@@ -15,7 +15,22 @@
 .ant-menu-submenu-title:hover {
   color: black;
 }
-/******/
+/* corner image */
+.corner-img {
+  position: fixed;
+  bottom: 0px;
+  height: 100px;
+  margin-left: 89%;
+}
+/* carousel */
+.slider {
+  height: 700px;
+  width: 550px;
+}
+.slider img {
+  height: 700px;
+}
+
 
 .App {
   text-align: center;
