@@ -1,4 +1,9 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
+import Sider from '../components/Sider';
+import CornerImageGallery from '../components/CornerImageHome';
+import TiledImages from '../components/TiledImages';
+import { Row, Col } from 'antd';
 
 function Gallery() {
     return(
@@ -11,7 +16,11 @@ function Gallery() {
                 <TiledImages />
             </Col>
         </Row>
-        <CornerImage />
+        <CornerImageGallery />
     </div>
     )
-}
+};
+
+ReactDOM.render(<Sider />, document.getElementById('root'));
+
+export default Gallery;
