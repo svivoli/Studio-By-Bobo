@@ -30,7 +30,11 @@
 .slider img {
   height: 700px;
 }
-
+/* tiled page */
+.tiles img {
+  padding-bottom: 10px;
+  height: 300px;
+}
 
 .App {
   text-align: center;
