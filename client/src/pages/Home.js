@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Sider from '../components/Sider';
-import CornerImage from '../components/CornerImage';
+import CornerImageHome from '../components/CornerImageHome';
 import Slider from '../components/Slider';
 import TiledImages from '../components/TiledImages';
 import { Row, Col } from 'antd';
@@ -17,7 +17,7 @@ function Home() {
                     <TiledImages />
                 </Col>
             </Row>
-            <CornerImage />
+            <CornerImageHome />
         </div>
     )
 };

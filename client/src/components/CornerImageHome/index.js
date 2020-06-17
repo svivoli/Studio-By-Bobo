@@ -1,6 +1,6 @@
 import React from 'react';
 
-function CornerImage() {
+function CornerImageHome() {
     return(
         <div>
             <img className="corner-img" src={require("../../img/sitting.png")}></img>
@@ -8,4 +8,4 @@ function CornerImage() {
     )
 };
 
-export default CornerImage;
+export default CornerImageHome;
