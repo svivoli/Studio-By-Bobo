@@ -1,3 +1,22 @@
+@import '~antd/dist/antd.css';
+
+/* navigation */
+.logo {
+  margin-left: 25px;
+  font-family: 'Marck Script', cursive;
+  font-size: 40px;
+}
+.ant-menu-inline {
+  border-right: none;
+}
+.ant-menu-submenu-arrow {
+  display: none;
+}
+.ant-menu-submenu-title:hover {
+  color: black;
+}
+/******/
+
 .App {
   text-align: center;
 }
