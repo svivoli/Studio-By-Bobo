@@ -41,7 +41,7 @@ function Navigation() {
           }
         >
         </SubMenu>
-        <SubMenu key="sub2" title="About">
+        <SubMenu className="link" key="sub2" title="About">
           <Menu.Item key="5"><a className="link" href="/style">Style</a></Menu.Item>
           <Menu.Item key="6"><a className="link" href="/bio">Bio</a></Menu.Item>
         </SubMenu>
@@ -49,7 +49,7 @@ function Navigation() {
           key="sub4"
           title={
             <span>
-              <span>Inquiries</span>
+              <a className="link" href="#"><span>Inquiries</span></a>
             </span>
           }
         >
