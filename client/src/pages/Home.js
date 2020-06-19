@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom';
 import Sider from '../components/Sider';
 import CornerImageHome from '../components/CornerImageHome';
 import Slider from '../components/Slider';
-import TiledImages from '../components/TiledImages';
 import { Row, Col } from 'antd';
 
 function Home() {
@@ -14,7 +13,7 @@ function Home() {
                     <Sider className="sider" />
                 </Col>
                 <Col className="gutter-row" span={19}>
-                    <TiledImages />
+                    <Slider />
                 </Col>
             </Row>
             <CornerImageHome />

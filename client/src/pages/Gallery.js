@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Sider from '../components/Sider';
-import CornerImageGallery from '../components/CornerImageHome';
+import CornerImageGallery from '../components/CornerImageGallery';
 import TiledImages from '../components/TiledImages';
 import { Row, Col } from 'antd';
 

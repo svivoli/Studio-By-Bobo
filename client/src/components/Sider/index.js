@@ -27,7 +27,7 @@ function Sider() {
           key="sub1"
           title={
             <span>
-              <span>Home</span>
+              <a className="link" href="/"><span>Home</span></a>
             </span>
           }
         >
@@ -36,7 +36,7 @@ function Sider() {
           key="sub2"
           title={
             <span>
-              <span>Gallery</span>
+              <a className="link" href="/gallery"><span>Gallery</span></a>
             </span>
           }
         >

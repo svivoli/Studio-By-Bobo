@@ -6,6 +6,13 @@
   font-family: 'Indie Flower', cursive;
   font-size: 25px;
 }
+.link {
+  padding-bottom: 10px;
+  color: #595959;
+}
+.link:hover {
+  color: black;
+}
 .ant-menu-inline {
   border-right: none;
 }
@@ -22,6 +29,12 @@
   height: 100px;
   margin-left: 89%;
 }
+.corner-img1 {
+  position: fixed;
+  bottom: 0px;
+  height: 150px;
+  margin-left: 95%;
+}
 /* carousel */
 .slider {
   height: 700px;
@@ -32,10 +45,26 @@
 }
 /* tiled page */
 .tiles img {
-  padding-bottom: 10px;
   height: 300px;
 }
-
+.tile-img {
+  margin-bottom: 10px;
+  display: inline-block;
+  position: relative;
+  z-index: 0;
+}
+.info {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  padding-top: 30px;
+  padding-left: 30px;
+  position: absolute;
+  z-index: 1;
+}
+.info-link {
+  color: inherit;
+}
 .App {
   text-align: center;
 }
