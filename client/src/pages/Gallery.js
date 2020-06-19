@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Sider from '../components/Sider';
+import Sider from '../components/Navigation';
 import CornerImageGallery from '../components/CornerImageGallery';
 import TiledImages from '../components/TiledImages';
 import { Row, Col } from 'antd';

@@ -5,7 +5,7 @@ import Logo from '../Logo';
 
 const { SubMenu } = Menu;
 
-function Sider() {
+function Navigation() {
   const [top, setTop] = useState(10);
 
   function handleClick(e) {
@@ -41,14 +41,9 @@ function Sider() {
           }
         >
         </SubMenu>
-        <SubMenu
-          key="sub3"
-          title={
-            <span>
-              <span>Bio</span>
-            </span>
-          }
-        >
+        <SubMenu key="sub2" title="About">
+          <Menu.Item key="5"><a className="link" href="/style">Style</a></Menu.Item>
+          <Menu.Item key="6"><a className="link" href="/bio">Bio</a></Menu.Item>
         </SubMenu>
         <SubMenu
           key="sub4"
@@ -65,4 +60,4 @@ function Sider() {
     );
 }
 
-export default Sider;
+export default Navigation;
