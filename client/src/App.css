@@ -33,6 +33,21 @@ html, body {
 .sub-link:first-of-type {
   padding-bottom: 10px;
 }
+/* social icons */
+.social {
+  padding: 25px;
+  position: fixed;
+  bottom: 0px;
+}
+.social-icon {
+  margin-right: 10px;
+  color: #595959;
+  font-size: 18px;
+}
+.social-icon:hover {
+  color: black;
+}
+
 /* corner image */
 .corner-img {
   position: fixed;
@@ -43,7 +58,7 @@ html, body {
 .corner-img1 {
   position: fixed;
   bottom: 0px;
-  height: 175px;
+  height: 150px;
   margin-left: 95%;
 }
 /* carousel */

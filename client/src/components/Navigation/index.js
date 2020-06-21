@@ -1,16 +1,12 @@
 import React, { useState } from 'react';
-import { Affix, Menu } from 'antd';
-import { AppstoreOutlined, MailOutlined, SettingOutlined } from '@ant-design/icons';
+import { Affix } from 'antd';
 import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
-import ListItemIcon from '@material-ui/core/ListItemIcon';
-import ListItemText from '@material-ui/core/ListItemText';
 import Collapse from '@material-ui/core/Collapse';
-import InboxIcon from '@material-ui/icons/MoveToInbox';
 import ExpandLess from '@material-ui/icons/ExpandLess';
 import ExpandMore from '@material-ui/icons/ExpandMore';
-import { MenuItemLink } from 'react-admin';
 import Logo from '../Logo';
+import SocialIcons from '../SocialIcons';
 
 // const { SubMenu } = Menu;
 
@@ -90,7 +86,8 @@ function Navigation() {
           <ListItem><a className="link" href="/inquiries">Inquiries</a></ListItem>
         </List>
         </div>
-      </Affix>
+        <SocialIcons />
+        </Affix>
     </div>
   );
 }
