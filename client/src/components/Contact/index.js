@@ -25,27 +25,41 @@ function Contact() {
   return (
     <div>
       <div className="form-title">
-    <h3>Inquiries for Commisions</h3>
-    </div>
-    <div className="form">
-    <Form {...layout} name="nest-messages" onFinish={onFinish} validateMessages={validateMessages}>
-      <Form.Item className="form-item" name={['user', 'name']} label="Name" rules={[{ required: true }]}>
-        <Input />
-      </Form.Item>
-      <Form.Item className="form-item" name={['user', 'email']} label="Email" rules={[{ type: 'email' }]}>
-        <Input />
-      </Form.Item>
-      <Form.Item className="form-item" name={['user', 'website']} label="Website">
-        <Input />
-      </Form.Item>
-      <Form.Item className="form-item" name={['user', 'introduction']} label="Introduction">
-        <Input.TextArea />
-      </Form.Item>
-      <Form.Item className="form-item" wrapperCol={{ ...layout.wrapperCol, offset: 8 }}>
+
+      </div>
+      <div className="form">
+        <h3>Inquiries for Commisions</h3>
+        <form>
+          <div class="uk-margin">
+            <label class="uk-form-label" for="form-horizontal-text">Name</label>
+            <div class="uk-form-controls">
+              <input class="uk-input" id="form-horizontal-text" type="text"></input>
+            </div>
+          </div>
+
+          <div class="uk-margin">
+            <label class="uk-form-label" for="form-horizontal-text">Email</label>
+            <div class="uk-form-controls">
+              <input class="uk-input" id="form-horizontal-text" type="text"></input>
+            </div>
+          </div>
+
+          <div class="uk-margin">
+            <label class="uk-form-label" for="form-horizontal-text">Website</label>
+            <div class="uk-form-controls">
+              <input class="uk-input" id="form-horizontal-text" type="text"></input>
+            </div>
+          </div>
+
+          <div class="uk-margin">
+            <label class="uk-form-label" for="form-stacked-text">Message</label>
+            <textarea class="uk-textarea" rows="5"></textarea>
+          </div>
+
+
+        </form>
         <button class="uk-button uk-button-default" htmlType="submit">submit</button>
-      </Form.Item>
-    </Form>
-    </div>
+      </div>
     </div>
   );
 };

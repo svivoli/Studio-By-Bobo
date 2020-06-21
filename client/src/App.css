@@ -92,32 +92,16 @@ html, body {
 /* inquiries */
 .form {
   margin-top: 50px;
-  margin-left: -250px;
   margin-right: 200px;
 }
-.form-title h3 {
+.form h3 {
   margin-top: 50px;
-  margin-right: 75px;
+  margin-bottom: 30px;
   text-align: center;
   text-transform: uppercase;
   font-family: 'Martel Sans', sans-serif;
   font-weight: bold;
   font-size: 12px;
-}
-.ant-form-item-lable label {
-  font-size: 12px !important;
-}
-.ant-btn-primary {
-  background: white;
-  background-color: white;
-  border: solid 1px lightgray;
-  color: black;
-}
-.ant-btn-primary::selection {
-  background-color: lightgray;
-}
-.ant-btn::selection {
-  background-color: lightgray;
 }
 
 
