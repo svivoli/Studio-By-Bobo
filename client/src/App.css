@@ -33,6 +33,9 @@ html, body {
 .sub-link:first-of-type {
   padding-bottom: 10px;
 }
+svg.MuiSvgIcon-root {
+  display: none;
+}
 /* social icons */
 .social {
   padding: 25px;

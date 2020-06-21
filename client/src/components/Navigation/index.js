@@ -69,8 +69,8 @@ function Navigation() {
         <List component="nav" >
           <ListItem><a className="link" href="/">Home</a></ListItem>
           <ListItem><a className="link" href="/gallery">Gallery</a></ListItem>
-          <ListItem className="link" onClick={handleClick}>
-            About
+          <ListItem onClick={handleClick}>
+            <a className="link">About</a>
             {open ? <ExpandLess /> : <ExpandMore />}
           </ListItem>
           <Collapse in={open} timeout="auto" unmountOnExit>
