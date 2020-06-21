@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Navigation from '../components/Navigation';
-import Style from '../components/Style';
+import Bio from '../components/Bio';
 import { Row, Col } from 'antd';
 
 function Home() {
@@ -12,7 +12,7 @@ function Home() {
                     <Navigation className="sider" />
                 </Col>
                 <Col className="gutter-row" span={19}>
-                    <Style />
+                    <Bio />
                 </Col>
             </Row>
         </div>

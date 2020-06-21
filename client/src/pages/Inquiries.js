@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Navigation from '../components/Navigation';
-import Style from '../components/Style';
+import CornerImageHome from '../components/CornerImageHome';
+import Contact from '../components/Contact';
 import { Row, Col } from 'antd';
 
 function Home() {
@@ -12,9 +13,10 @@ function Home() {
                     <Navigation className="sider" />
                 </Col>
                 <Col className="gutter-row" span={19}>
-                    <Style />
+                    <Contact />
                 </Col>
             </Row>
+            <CornerImageHome />
         </div>
     )
 };

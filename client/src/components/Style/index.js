@@ -2,7 +2,7 @@ import React from 'react';
 
 function Style() {
     return (
-        <div className="style">
+        <div className="about">
             <h3>Style</h3>
             <p>One line drawing is a continuous line, and remains unbroken from beginning to
             end—an uninterrupted process, in its contact with the surface of the paper.

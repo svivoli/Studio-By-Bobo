@@ -2,6 +2,7 @@
 
 html, body {
   font-family: 'Martel Sans', sans-serif;
+  font-size: 12px;
 }
 
 /* navigation */
@@ -12,7 +13,6 @@ html, body {
   font-size: 25px;
 }
 .link {
-  padding-bottom: 10px;
   font-size: 12px;
   text-transform: uppercase;
   font-weight: bold;
@@ -21,14 +21,11 @@ html, body {
 .link:hover {
   color: black;
 }
-.ant-menu-inline {
-  border-right: none;
+.sub-link {
+  margin-left: 25px;
 }
-.ant-menu-submenu-arrow {
-  display: none;
-}
-.ant-menu-submenu-title:hover {
-  color: black;
+.sub-link:first-of-type {
+  padding-bottom: 10px;
 }
 /* corner image */
 .corner-img {
@@ -74,18 +71,48 @@ html, body {
   color: inherit;
 }
 /* style */
-.style {
+.about {
   text-align: center;
   margin-left: 100px;
   margin-right: 200px;
 }
-.style h3 {
+.about h3 {
   margin: 50px 0 30px;
   text-transform: uppercase;
   font-family: 'Martel Sans', sans-serif;
   font-weight: bold;
+  font-size: 12px;
 }
-
+/* inquiries */
+.form {
+  margin-top: 50px;
+  margin-left: -250px;
+  margin-right: 200px;
+}
+.form-title h3 {
+  margin-top: 50px;
+  margin-right: 75px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Martel Sans', sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+}
+.ant-form-item-lable label {
+  font-size: 12px !important;
+}
+.ant-btn-primary {
+  background: white;
+  background-color: white;
+  border: solid 1px lightgray;
+  color: black;
+}
+.ant-btn-primary::selection {
+  background-color: lightgray;
+}
+.ant-btn::selection {
+  background-color: lightgray;
+}
 
 
 .App {

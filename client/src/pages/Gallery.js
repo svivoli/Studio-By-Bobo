@@ -21,6 +21,5 @@ function Gallery() {
     )
 };
 
-ReactDOM.render(<Sider />, document.getElementById('root'));
 
 export default Gallery;

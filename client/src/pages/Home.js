@@ -21,6 +21,4 @@ function Home() {
     )
 };
 
-ReactDOM.render(<Navigation />, document.getElementById('root'));
-
 export default Home;
