@@ -29,7 +29,7 @@ function Navigation() {
   return (
     <div>
       <Affix offsetTop={top}>
-        <Logo />
+        <a href="/"><Logo /></a>
         {/* <Menu
           onClick={handleClick}
           style={{ width: 256 }}

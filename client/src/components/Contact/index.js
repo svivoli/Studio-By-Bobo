@@ -28,7 +28,7 @@ function Contact() {
 
       </div>
       <div className="form">
-        <h3>Inquiries for Commisions</h3>
+        <h3>Inquiries for Commissions</h3>
         <form>
           <div class="uk-margin">
             <label class="uk-form-label" for="form-horizontal-text">Name</label>
@@ -55,7 +55,6 @@ function Contact() {
             <label class="uk-form-label" for="form-stacked-text">Message</label>
             <textarea class="uk-textarea" rows="5"></textarea>
           </div>
-
 
         </form>
         <button class="uk-button uk-button-default" htmlType="submit">submit</button>
