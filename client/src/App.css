@@ -90,6 +90,11 @@ html, body {
 }
 .info-link {
   color: inherit;
+  font-style: italic !important;
+}
+.info-link:hover {
+  color: black !important;
+  font-style: inherit !important;
 }
 /* style */
 .about {
