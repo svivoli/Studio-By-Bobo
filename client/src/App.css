@@ -43,7 +43,7 @@ html, body {
 .corner-img1 {
   position: fixed;
   bottom: 0px;
-  height: 150px;
+  height: 175px;
   margin-left: 95%;
 }
 /* carousel */
@@ -56,7 +56,7 @@ html, body {
 }
 /* tiled page */
 .tiles img {
-  height: 300px;
+  width: 400px;
 }
 .tile-img {
   margin-bottom: 10px;

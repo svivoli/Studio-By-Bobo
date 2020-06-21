@@ -4,31 +4,66 @@ import { Row, Col } from 'antd';
 const TiledImages = () => (
     <div className="tiles">
         <Row gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }}>
-            <Col className="gutter-row" span={8}>
+            <Col className="gutter-row" span={12}>
                 <Div>
-                    <img src={require('../../img/1.png')}></img>
+                    <img src={require('../../img/fleurs.jpeg')}></img>
                     <Div2>
-                        <p>title</p>
+                        <p>fleurs</p>
                         <p>medium</p>
                         <a className="info-link" href="#">www.etsy.com</a>
                     </Div2>
                 </Div>
             </Col>
-            <Col className="gutter-row" span={8}>
+            <Col className="gutter-row" span={12}>
                 <Div>
-                    <img src={require('../../img/2.png')}></img>
+                    <img src={require('../../img/girlatcafe.jpg')}></img>
                     <Div2>
-                        <p>title</p>
+                        <p>girl at cafe</p>
                         <p>medium</p>
                         <a className="info-link" href="#">www.etsylink.com</a>
                     </Div2>
                 </Div>
             </Col>
-            <Col className="gutter-row" span={8}>
+            
+        </Row>
+        <Row gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }}>
+            <Col className="gutter-row" span={12}>
                 <Div>
-                    <img src={require('../../img/3.png')}></img>
+                    <img src={require('../../img/girlsitting2019.jpeg')}></img>
                     <Div2>
-                        <p>title</p>
+                        <p>girl sitting</p>
+                        <p>medium</p>
+                        <a className="info-link" href="#">www.etsylink.com</a>
+                    </Div2>
+                </Div>
+            </Col>
+            <Col className="gutter-row" span={12}>
+                <Div>
+                    <img src={require('../../img/girlwithfruit.jpeg')}></img>
+                    <Div2>
+                        <p>girl with fruit</p>
+                        <p>medium</p>
+                        <a className="info-link" href="#">www.etsylink.com</a>
+                    </Div2>
+                </Div>
+            </Col>
+            </Row>
+        <Row gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }}>
+            <Col className="gutter-row" span={12}>
+                <Div>
+                    <img src={require('../../img/girlinpool2019.jpg')}></img>
+                    <Div2>
+                        <p>girl in pool</p>
+                        <p>medium</p>
+                        <a className="info-link" href="#">www.etsylink.com</a>
+                    </Div2>
+                </Div>
+            </Col>
+            <Col className="gutter-row" span={12}>
+                <Div>
+                    <img src={require('../../img/jaroflilliesandpoppies.jpg')}></img>
+                    <Div2>
+                        <p>jar of lillies and poppies</p>
                         <p>medium</p>
                         <a className="info-link" href="#">www.etsylink.com</a>
                     </Div2>
@@ -36,159 +71,21 @@ const TiledImages = () => (
             </Col>
         </Row>
         <Row gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }}>
-            <Col className="gutter-row" span={8}>
+            <Col className="gutter-row" span={12}>
                 <Div>
-                    <img src={require('../../img/4.png')}></img>
+                    <img src={require('../../img/stilllifeofvases.jpeg')}></img>
                     <Div2>
-                        <p>title</p>
+                        <p>still life of vases</p>
                         <p>medium</p>
                         <a className="info-link" href="#">www.etsylink.com</a>
                     </Div2>
                 </Div>
             </Col>
-            <Col className="gutter-row" span={8}>
+            <Col className="gutter-row" span={12}>
                 <Div>
-                    <img src={require('../../img/5.png')}></img>
+                    <img src={require('../../img/summerroses2020.jpg')}></img>
                     <Div2>
-                        <p>title</p>
-                        <p>medium</p>
-                        <a className="info-link" href="#">www.etsylink.com</a>
-                    </Div2>
-                </Div>
-            </Col>
-            <Col className="gutter-row" span={8}>
-                <Div>
-                    <img src={require('../../img/6.png')}></img>
-                    <Div2>
-                        <p>title</p>
-                        <p>medium</p>
-                        <a className="info-link" href="#">www.etsylink.com</a>
-                    </Div2>
-                </Div>
-            </Col>
-        </Row>
-        <Row gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }}>
-            <Col className="gutter-row" span={8}>
-                <Div>
-                    <img src={require('../../img/7.png')}></img>
-                    <Div2>
-                        <p>title</p>
-                        <p>medium</p>
-                        <a className="info-link" href="#">www.etsylink.com</a>
-                    </Div2>
-                </Div>
-            </Col>
-            <Col className="gutter-row" span={8}>
-                <Div>
-                    <img src={require('../../img/8.png')}></img>
-                    <Div2>
-                        <p>title</p>
-                        <p>medium</p>
-                        <a className="info-link" href="#">www.etsylink.com</a>
-                    </Div2>
-                </Div>
-            </Col>
-            <Col className="gutter-row" span={8}>
-                <Div>
-                    <img src={require('../../img/9.png')}></img>
-                    <Div2>
-                        <p>title</p>
-                        <p>medium</p>
-                        <a className="info-link" href="#">www.etsylink.com</a>
-                    </Div2>
-                </Div>
-            </Col>
-        </Row>
-        <Row gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }}>
-            <Col className="gutter-row" span={8}>
-                <Div>
-                    <img src={require('../../img/10.png')}></img>
-                    <Div2>
-                        <p>title</p>
-                        <p>medium</p>
-                        <a className="info-link" href="#">www.etsylink.com</a>
-                    </Div2>
-                </Div>
-            </Col>
-            <Col className="gutter-row" span={8}>
-                <Div>
-                    <img src={require('../../img/11.png')}></img>
-                    <Div2>
-                        <p>title</p>
-                        <p>medium</p>
-                        <a className="info-link" href="#">www.etsylink.com</a>
-                    </Div2>
-                </Div>
-            </Col>
-            <Col className="gutter-row" span={8}>
-                <Div>
-                    <img src={require('../../img/12.png')}></img>
-                    <Div2>
-                        <p>title</p>
-                        <p>medium</p>
-                        <a className="info-link" href="#">www.etsylink.com</a>
-                    </Div2>
-                </Div>
-            </Col>
-        </Row>
-        <Row gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }}>
-            <Col className="gutter-row" span={8}>
-                <Div>
-                    <img src={require('../../img/13.png')}></img>
-                    <Div2>
-                        <p>title</p>
-                        <p>medium</p>
-                        <a className="info-link" href="#">www.etsylink.com</a>
-                    </Div2>
-                </Div>
-            </Col>
-            <Col className="gutter-row" span={8}>
-                <Div>
-                    <img src={require('../../img/14.png')}></img>
-                    <Div2>
-                        <p>title</p>
-                        <p>medium</p>
-                        <a className="info-link" href="#">www.etsylink.com</a>
-                    </Div2>
-                </Div>
-            </Col>
-            <Col className="gutter-row" span={8}>
-                <Div>
-                    <img src={require('../../img/15.png')}></img>
-                    <Div2>
-                        <p>title</p>
-                        <p>medium</p>
-                        <a className="info-link" href="#">www.etsylink.com</a>
-                    </Div2>
-                </Div>
-            </Col>
-        </Row>
-        <Row gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }}>
-            <Col className="gutter-row" span={8}>
-                <Div>
-                    <img src={require('../../img/16.png')}></img>
-                    <Div2>
-                        <p>title</p>
-                        <p>medium</p>
-                        <a className="info-link" href="#">www.etsylink.com</a>
-                    </Div2>
-                </Div>
-            </Col>
-            <Col className="gutter-row" span={8}>
-                <Div>
-                    <img src={require('../../img/17.png')}></img>
-                    <Div2>
-                        <p>title</p>
-                        <p>medium</p>
-                        <a className="info-link" href="#">www.etsylink.com</a>
-                    </Div2>
-                </Div>
-            </Col>
-            <Col className="gutter-row" span={8}>
-                <Div>
-                    <img src={require('../../img/18.png')}></img>
-                    <Div2>
-                        <p>title</p>
+                        <p>summer roses</p>
                         <p>medium</p>
                         <a className="info-link" href="#">www.etsylink.com</a>
                     </Div2>
