@@ -7,8 +7,8 @@ const app = express();
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-app.use(express.static(__dirname + '/public'));
+app.use(express.static(__dirname + '/public/index.html'));
 
-app.listen(PORT || 5000, function () {
+app.listen(PORT, function () {
     console.log(`🌎 ==> API server now on port ${PORT}!`);
 });
