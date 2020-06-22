@@ -78,7 +78,7 @@ svg.MuiSvgIcon-root {
 }
 /* social icons */
 .social {
-  padding: 25px;
+  padding: 25px 25px 15px 25px;
   position: fixed;
   bottom: 0px;
 }
