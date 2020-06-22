@@ -9,6 +9,6 @@ app.use(express.json());
 
 app.use(express.static(__dirname + '/public'));
 
-app.listen(PORT, function () {
+app.listen(PORT || 5000, function () {
     console.log(`🌎 ==> API server now on port ${PORT}!`);
 });
