@@ -12,7 +12,7 @@ function Home() {
                 <Col className="gutter-row" span={5}>
                     <Navigation className="sider" />
                 </Col>
-                <Col className="gutter-row" span={19}>
+                <Col className="carousel gutter-row" span={19}>
                     <Slider />
                 </Col>
             </Row>

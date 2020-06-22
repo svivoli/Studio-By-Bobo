@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Navigation from '../components/Navigation';
-import CornerImageHome from '../components/CornerImageHome';
+import CornerImageInquiries from '../components/CornerImageInquiries';
 import Contact from '../components/Contact';
 import { Row, Col } from 'antd';
 
@@ -16,7 +16,7 @@ function Home() {
                     <Contact />
                 </Col>
             </Row>
-            <CornerImageHome />
+            <CornerImageInquiries />
         </div>
     )
 };

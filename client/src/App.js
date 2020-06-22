@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import Landing from './pages/Landing';
 import Home from './pages/Home';
 import Gallery from './pages/Gallery';
 import Style from './pages/Style';
@@ -12,7 +13,10 @@ function App() {
     <Router>
       <div>
         <Switch>
-          <Route exact path="/">
+        <Route exact path="/">
+            <Landing />
+          </Route>
+          <Route exact path="/home">
             <Home />
           </Route>
           <Route exact path="/gallery">

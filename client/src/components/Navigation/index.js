@@ -67,7 +67,7 @@ function Navigation() {
         </Menu> */}
         <div className="nav">
         <List component="nav" >
-          <ListItem><a className="link" href="/">Home</a></ListItem>
+          <ListItem><a className="link" href="/home">Home</a></ListItem>
           <ListItem><a className="link" href="/gallery">Gallery</a></ListItem>
           <ListItem onClick={handleClick}>
             <a className="link">About</a>

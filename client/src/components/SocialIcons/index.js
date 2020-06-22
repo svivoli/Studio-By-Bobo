@@ -7,7 +7,7 @@ function SocialIcons() {
                 <i class="fab fa-instagram"></i>
             </a>
             <a className="social-icon" href="https://www.etsy.com/shop/StudiobyBobo" target="_blank">
-                <i class="fab fa-etsy"></i>
+                <i class="etsy fab fa-etsy"></i>
             </a>
         </div>
     )
