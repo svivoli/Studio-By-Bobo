@@ -30,23 +30,42 @@ html, body {
 .landing-img img {
   height: 100%;
 }
-.enter {
+.enter-drawings {
   width: 100%;
   top: 0;
-  margin-top: 300px;
-  padding-right: 350px;
+  margin-top: 275px;
+  padding-right: 425px;
   position: absolute;
   z-index: 1;
   text-align: center;
 }
-.enter h1 {
+.enter-drawings h1 {
+  font-family: 'Martel Sans', sans-serif;
+  color: white;
+  font-style: italic;
+  font-size: 48px;
+  z-index: 3;
+}
+.enter-drawings h1:hover {
+  font-style: inherit !important;
+}
+.enter-paintings {
+  width: 100%;
+  top: 0;
+  margin-top: 200px;
+  padding-right: 425x;
+  position: absolute;
+  z-index: 1;
+  text-align: center;
+}
+.enter-paintings h1 {
   font-family: 'Martel Sans', sans-serif;
   color: white;
   font-style: italic;
   font-size: 48px;
   z-index: 2;
 }
-.enter h1:hover {
+.enter-paintings h1:hover {
   font-style: inherit;
 }
 /* navigation */

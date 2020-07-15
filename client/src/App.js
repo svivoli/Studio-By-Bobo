@@ -1,9 +1,9 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Landing from './pages/Landing';
-import Home from './pages/Home';
-import Gallery from './pages/Gallery';
-import Style from './pages/Style';
+import DrawingsHome from './pages/DrawingsHome';
+import DrawingsGallery from './pages/DrawingsGallery';
+import DrawingsStyle from './pages/DrawingsStyle';
 import Bio from './pages/Bio'
 import Inquiries from './pages/Inquiries';
 import './App.css';
@@ -13,22 +13,37 @@ function App() {
     <Router>
       <div>
         <Switch>
-        <Route exact path="/">
+          <Route exact path="/">
             <Landing />
           </Route>
-          <Route exact path="/home">
-            <Home />
+          <Route exact path="/drawingshome">
+            <DrawingsHome />
           </Route>
-          <Route exact path="/gallery">
-            <Gallery />
+          <Route exact path="/drawingsgallery">
+            <DrawingsGallery />
           </Route>
-          <Route exact path="/style">
-            <Style />
+          <Route exact path="/drawingsstyle">
+            <DrawingsStyle />
           </Route>
-          <Route exact path="/bio">
+          <Route exact path="/drawingsbio">
             <Bio />
           </Route>
-          <Route exact path="/inquiries">
+          <Route exact path="/drawingsinquiries">
+            <Inquiries />
+          </Route>
+          <Route exact path="/paintingshome">
+            
+          </Route>
+          <Route exact path="/paintingsgallery">
+            
+          </Route>
+          <Route exact path="/paintingsstyle">
+            
+          </Route>
+          <Route exact path="/paintingsbio">
+            <Bio />
+          </Route>
+          <Route exact path="/paintingsinquiries">
             <Inquiries />
           </Route>
         </Switch>

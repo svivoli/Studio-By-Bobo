@@ -10,7 +10,7 @@ import SocialIcons from '../SocialIcons';
 
 // const { SubMenu } = Menu;
 
-function Navigation() {
+function DrawingsNavigation() {
   const [top, setTop] = useState(10);
   const [open, setOpen] = useState(false);
 
@@ -67,8 +67,8 @@ function Navigation() {
         </Menu> */}
         <div className="nav">
         <List component="nav" >
-          <ListItem><a className="link" href="/home">Home</a></ListItem>
-          <ListItem><a className="link" href="/gallery">Gallery</a></ListItem>
+          <ListItem><a className="link" href="/drawingshome">Home</a></ListItem>
+          <ListItem><a className="link" href="/drawingsgallery">Gallery</a></ListItem>
           <ListItem onClick={handleClick}>
             <a className="link">About</a>
             {open ? <ExpandLess /> : <ExpandMore />}
@@ -76,14 +76,14 @@ function Navigation() {
           <Collapse in={open} timeout="auto" unmountOnExit>
             <List component="div">
               <div className="sub-link">
-              <a className="link" href="/style">Style</a>
+              <a className="link" href="/drawingsstyle">Style</a>
               </div>
               <div className="sub-link">
-              <a className="link" href="/bio">Bio</a>
+              <a className="link" href="/drawingsbio">Bio</a>
               </div>
             </List>
           </Collapse>
-          <ListItem><a className="link" href="/inquiries">Inquiries</a></ListItem>
+          <ListItem><a className="link" href="/drawingsinquiries">Inquiries</a></ListItem>
         </List>
         </div>
         <SocialIcons />
@@ -92,4 +92,4 @@ function Navigation() {
   );
 }
 
-export default Navigation;
+export default DrawingsNavigation;

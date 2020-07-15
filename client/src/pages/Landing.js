@@ -20,9 +20,12 @@ function Landing() {
             </Row>
             </Affix>
             <div className="landing-img">
-                <img src={require("../img/girlinpool.jpg")}></img>
-                <div className="enter">
-                    <a href="/home"><h1>enter</h1></a>
+                <img src={require("../img/girlinpool.jpg")} alt=" "></img>
+                <div className="enter-drawings">
+                    <a href="/drawingshome"><h1>enter drawings</h1></a>
+                </div>
+                <div className="enter-paintings">
+                    <a href="/paintingshome"><h1>enter paintings</h1></a>
                 </div>
             </div>
         </div>
