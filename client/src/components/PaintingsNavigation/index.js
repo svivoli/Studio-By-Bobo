@@ -84,6 +84,7 @@ function PaintingsNavigation() {
             </List>
           </Collapse>
           <ListItem><a className="link" href="/paintingsinquiries">Inquiries</a></ListItem>
+          <ListItem><a className="link" href="/drawingshome">Drawings</a></ListItem>
         </List>
         </div>
         <SocialIcons />
