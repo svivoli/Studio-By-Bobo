@@ -1,6 +1,6 @@
 import React from 'react';
 import PaintingsNavigation from '../components/PaintingsNavigation';
-import Slider from '../components/DrawingsSlider';
+import PaintingsSlider from '../components/PaintingsSlider';
 import { Row, Col } from 'antd';
 
 function PaintingsHome() {
@@ -11,7 +11,7 @@ function PaintingsHome() {
                     <PaintingsNavigation className="sider" />
                 </Col>
                 <Col className="carousel gutter-row" span={19}>
-                    
+                    <PaintingsSlider />
                 </Col>
             </Row>
         </div>
