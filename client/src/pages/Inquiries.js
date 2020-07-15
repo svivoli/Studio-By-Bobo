@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Navigation from '../components/Navigation';
 import CornerImageInquiries from '../components/CornerImageInquiries';
-import Contact from '../components/Contact';
+import SimpleContact from '../components/SimpleContact';
 import { Row, Col } from 'antd';
 
 function Home() {
@@ -13,7 +13,7 @@ function Home() {
                     <Navigation className="sider" />
                 </Col>
                 <Col className="gutter-row" span={19}>
-                    <Contact />
+                    <SimpleContact />
                 </Col>
             </Row>
             <CornerImageInquiries />

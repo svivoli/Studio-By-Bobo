@@ -6,7 +6,7 @@ const TiledImages = () => (
         <Row gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }}>
             <Col className="gutter-row" span={12}>
                 <Div>
-                    <img src={require('../../img/fleurs.jpeg')}></img>
+                    <img src={require('../../img/fleurs.png')}></img>
                     <Div2>
                         <p>vase of ranunculuses</p>
                         <p>medium</p>
@@ -16,7 +16,7 @@ const TiledImages = () => (
             </Col>
             <Col className="gutter-row" span={12}>
                 <Div>
-                    <img src={require('../../img/girlatcafe.jpg')}></img>
+                    <img src={require('../../img/girlatcafe.png')}></img>
                     <Div2>
                         <p>girl at cafe</p>
                         <p>medium</p>
@@ -29,7 +29,7 @@ const TiledImages = () => (
         <Row gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }}>
             <Col className="gutter-row" span={12}>
                 <Div>
-                    <img src={require('../../img/girlsitting2019.jpeg')}></img>
+                    <img src={require('../../img/girlsitting2019.png')}></img>
                     <Div2>
                         <p>girl sitting</p>
                         <p>medium</p>
@@ -39,7 +39,7 @@ const TiledImages = () => (
             </Col>
             <Col className="gutter-row" span={12}>
                 <Div>
-                    <img src={require('../../img/girlwithfruit.jpeg')}></img>
+                    <img src={require('../../img/girlwithfruit.png')}></img>
                     <Div2>
                         <p>girl holding fruit</p>
                         <p>medium</p>
@@ -51,7 +51,7 @@ const TiledImages = () => (
         <Row gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }}>
             <Col className="gutter-row" span={12}>
                 <Div>
-                    <img src={require('../../img/girlinpool2019.jpg')}></img>
+                    <img src={require('../../img/girlinpool2019.png')}></img>
                     <Div2>
                         <p>girl in pool</p>
                         <p>medium</p>
@@ -61,7 +61,7 @@ const TiledImages = () => (
             </Col>
             <Col className="gutter-row" span={12}>
                 <Div>
-                    <img src={require('../../img/jaroflilliesandpoppies.jpg')}></img>
+                    <img src={require('../../img/jaroflilliesandpoppies.png')}></img>
                     <Div2>
                         <p>jar of lillies and poppies</p>
                         <p>medium</p>
@@ -73,7 +73,7 @@ const TiledImages = () => (
         <Row gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }}>
             <Col className="gutter-row" span={12}>
                 <Div>
-                    <img src={require('../../img/stilllifeofvases.jpeg')}></img>
+                    <img src={require('../../img/stilllifeofvases.png')}></img>
                     <Div2>
                         <p>study of vases</p>
                         <p>medium</p>
@@ -83,7 +83,7 @@ const TiledImages = () => (
             </Col>
             <Col className="gutter-row" span={12}>
                 <Div>
-                    <img src={require('../../img/summerroses2020.jpg')}></img>
+                    <img src={require('../../img/summerroses2020.png')}></img>
                     <Div2>
                         <p>summer roses</p>
                         <p>medium</p>

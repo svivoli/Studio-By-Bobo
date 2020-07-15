@@ -5,7 +5,7 @@ import ListItem from '@material-ui/core/ListItem';
 import Collapse from '@material-ui/core/Collapse';
 import ExpandLess from '@material-ui/icons/ExpandLess';
 import ExpandMore from '@material-ui/icons/ExpandMore';
-import Logo from '../Logo';
+import LogoNav from '../LogoNav';
 import SocialIcons from '../SocialIcons';
 
 // const { SubMenu } = Menu;
@@ -25,7 +25,7 @@ function Navigation() {
   return (
     <div>
       <Affix offsetTop={top}>
-        <a href="/"><Logo /></a>
+        <a href="/"><LogoNav /></a>
         {/* <Menu
           onClick={handleClick}
           style={{ width: 256 }}

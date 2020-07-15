@@ -6,9 +6,13 @@ html, body {
 }
 
 /* landing */
-.landing-logo {
+.landing-header {
+  background: white;
+}
+.logo-land {
   margin-top: 25px;
-  margin-left: 50px;
+  margin-left: 40px;
+  width: 175px;
 }
 .raw-social {
   margin-top: 5px;
@@ -46,11 +50,9 @@ html, body {
   font-style: inherit;
 }
 /* navigation */
-.logo {
-  margin-left: 25px;
-  text-transform: uppercase;
-  font-family: 'Indie Flower', cursive;
-  font-size: 25px;
+.logo-nav {
+  margin: 20px 0 20px 25px;
+  width: 175px;
 }
 .nav {
   margin-left: 10px;
@@ -126,6 +128,7 @@ svg.MuiSvgIcon-root {
   display: inline-block;
   position: relative;
   z-index: 0;
+  border: solid 1px lightgray;
 }
 .info {
   height: 100%;
@@ -170,6 +173,27 @@ svg.MuiSvgIcon-root {
   font-family: 'Martel Sans', sans-serif;
   font-weight: bold;
   font-size: 12px;
+}
+/* simple contact */
+.email {
+  margin-right: 50px;
+  margin-top: 50px;
+  text-align: center;
+}
+.email h3 {
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  font-family: 'Martel Sans', sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+}
+.email-link {
+  font-style: italic;
+  color: #595959;
+}
+.email-link:hover {
+  font-style: inherit;
+  color: #595959;
 }
 
 
