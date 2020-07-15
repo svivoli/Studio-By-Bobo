@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Style() {
+function BioBlurb() {
     return (
         <div className="about">
             <h3>Bio</h3>
@@ -10,4 +10,4 @@ function Style() {
     )
 };
 
-export default Style;
+export default BioBlurb;

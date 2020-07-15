@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Style() {
+function DrawingsStyleBlurb() {
     return (
         <div className="about">
             <h3>Style</h3>
@@ -13,4 +13,4 @@ function Style() {
     )
 };
 
-export default Style;
+export default DrawingsStyleBlurb;

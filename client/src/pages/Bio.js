@@ -1,9 +1,9 @@
 import React from 'react';
 import DrawingsNavigation from '../components/DrawingsNavigation';
-import Bio from '../components/Bio';
+import BioBlurb from '../components/BioBlurb';
 import { Row, Col } from 'antd';
 
-function Home() {
+function Bio() {
     return (
         <div>
             <Row gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }}>
@@ -11,7 +11,7 @@ function Home() {
                     <DrawingsNavigation className="sider" />
                 </Col>
                 <Col className="gutter-row" span={19}>
-                    <Bio />
+                    <BioBlurb />
                 </Col>
             </Row>
         </div>
@@ -19,4 +19,4 @@ function Home() {
 };
 
 
-export default Home;
+export default Bio;

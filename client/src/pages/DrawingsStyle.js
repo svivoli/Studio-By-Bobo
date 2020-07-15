@@ -1,6 +1,6 @@
 import React from 'react';
 import DrawingsNavigation from '../components/DrawingsNavigation';
-import Style from '../components/Style';
+import DrawingsStyleBlurb from '../components/DrawingsStyleBlurb';
 import { Row, Col } from 'antd';
 
 function DrawingsStyle() {
@@ -11,7 +11,7 @@ function DrawingsStyle() {
                     <DrawingsNavigation className="sider" />
                 </Col>
                 <Col className="gutter-row" span={19}>
-                    <Style />
+                    <DrawingsStyleBlurb />
                 </Col>
             </Row>
         </div>
