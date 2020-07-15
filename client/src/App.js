@@ -7,6 +7,7 @@ import DrawingsStyle from './pages/DrawingsStyle';
 import Bio from './pages/Bio'
 import Inquiries from './pages/Inquiries';
 import PaintingsHome from './pages/PaintingsHome';
+import PaintingsGallery from './pages/PaintingsGallery';
 import './App.css';
 
 function App() {
@@ -36,7 +37,7 @@ function App() {
             <PaintingsHome />
           </Route>
           <Route exact path="/paintingsgallery">
-            
+            <PaintingsGallery />
           </Route>
           <Route exact path="/paintingsstyle">
             

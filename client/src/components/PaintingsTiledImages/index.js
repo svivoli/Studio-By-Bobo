@@ -6,11 +6,11 @@ const DrawingsTiledImages = () => (
         <Row gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }}>
             <Col className="gutter-row" span={12}>
                 <Div>
-                    <img src={require('../../img/barcelona.jpeg')} alt=" "></img>
+                    <img src={require('../../img/rythmedecouleurII.jpg')} alt=" "></img>
                     <Div2>
-                        <p>barcelona</p>
+                        <p>rythme de couleur</p>
                         <p>acrylic on stretched canvas</p>
-                        {/* <a className="info-link" href="https://www.etsy.com/listing/809087050/vase-of-ranunculuses?ref=shop_home_active_9&frs=1" target="_blank" rel="noopener noreferrer">purchase on Etsy</a> */}
+                        {/* <a className="info-link" href="https://www.etsy.com/listing/822984031/girl-sitting?ref=shop_home_active_10&frs=1" target="_blank" rel="noopener noreferrer">purchase on Etsy</a> */}
                     </Div2>
                 </Div>
             </Col>
@@ -29,11 +29,11 @@ const DrawingsTiledImages = () => (
         <Row gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }}>
             <Col className="gutter-row" span={12}>
                 <Div>
-                    <img src={require('../../img/rythmedecouleurII.jpg')} alt=" "></img>
+                    <img src={require('../../img/barcelona.jpeg')} alt=" "></img>
                     <Div2>
-                        <p>rythme de couleur</p>
+                        <p>barcelona</p>
                         <p>acrylic on stretched canvas</p>
-                        {/* <a className="info-link" href="https://www.etsy.com/listing/822984031/girl-sitting?ref=shop_home_active_10&frs=1" target="_blank" rel="noopener noreferrer">purchase on Etsy</a> */}
+                        {/* <a className="info-link" href="https://www.etsy.com/listing/809087050/vase-of-ranunculuses?ref=shop_home_active_9&frs=1" target="_blank" rel="noopener noreferrer">purchase on Etsy</a> */}
                     </Div2>
                 </Div>
             </Col>
@@ -55,8 +55,8 @@ const DrawingsTiledImages = () => (
                     <Div2>
                         <p>girl in pool</p>
                         <p>ink and gouache on paper</p> */}
-                        {/* <a className="info-link" href="#" target="_blank">www.etsylink.com</a> */}
-                    {/* </Div2>
+        {/* <a className="info-link" href="#" target="_blank">www.etsylink.com</a> */}
+        {/* </Div2>
                 </Div>
             </Col>
             <Col className="gutter-row" span={12}>
@@ -87,8 +87,8 @@ const DrawingsTiledImages = () => (
                     <Div2>
                         <p>summer roses</p>
                         <p>ink and gouache on paper</p> */}
-                        {/* <a className="info-link" href="#" target="_blank">www.etsylink.com</a> */}
-                    {/* </Div2>
+        {/* <a className="info-link" href="#" target="_blank">www.etsylink.com</a> */}
+        {/* </Div2>
                 </Div>
             </Col>
         </Row> */}
@@ -119,8 +119,8 @@ class Div2 extends React.Component {
     }
 
     handleMouseEnter = () => {
-        this.setState({ color: 'black' });
-        this.setState({ background: 'rgba(80, 80, 80, 0.3)' });
+        this.setState({ color: 'white' });
+        this.setState({ background: 'rgba(80, 80, 80, 0.5)' });
         console.log(this.state.color);
     }
 
