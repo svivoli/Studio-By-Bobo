@@ -1,7 +1,7 @@
 import React from 'react';
 import { Carousel } from 'antd';
 
-function Slider() {
+function DrawingsSlider() {
 
   return (
     <Carousel className="slider" autoplay>
@@ -33,4 +33,4 @@ function Slider() {
   )
 }
 
-export default Slider;
+export default DrawingsSlider;

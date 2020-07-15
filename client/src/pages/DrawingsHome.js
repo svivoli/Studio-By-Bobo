@@ -1,7 +1,7 @@
 import React from 'react';
 import DrawingsNavigation from '../components/DrawingsNavigation';
 import CornerImageHome from '../components/CornerImageHome';
-import Slider from '../components/Slider';
+import DrawingsSlider from '../components/DrawingsSlider';
 import { Row, Col } from 'antd';
 
 function DrawingsHome() {
@@ -12,7 +12,7 @@ function DrawingsHome() {
                     <DrawingsNavigation className="sider" />
                 </Col>
                 <Col className="carousel gutter-row" span={19}>
-                    <Slider />
+                    <DrawingsSlider />
                 </Col>
             </Row>
             <CornerImageHome />
