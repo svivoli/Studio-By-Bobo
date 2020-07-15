@@ -1,43 +1,43 @@
 import React from 'react';
 import { Row, Col } from 'antd';
 
-const TiledImages = () => (
+const DrawingsTiledImages = () => (
     <div className="tiles">
         <Row gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }}>
             <Col className="gutter-row" span={12}>
                 <Div>
-                    <img src={require('../../img/fleurs.png')} alt=" "></img>
+                    <img src={require('../../img/barcelona.jpeg')} alt=" "></img>
                     <Div2>
-                        <p>vase of ranunculuses</p>
-                        <p>ink and gouache on paper</p>
-                        <a className="info-link" href="https://www.etsy.com/listing/809087050/vase-of-ranunculuses?ref=shop_home_active_9&frs=1" target="_blank" rel="noopener noreferrer">purchase on Etsy</a>
+                        <p>barcelona</p>
+                        <p>acrylic on stretched canvas</p>
+                        {/* <a className="info-link" href="https://www.etsy.com/listing/809087050/vase-of-ranunculuses?ref=shop_home_active_9&frs=1" target="_blank" rel="noopener noreferrer">purchase on Etsy</a> */}
                     </Div2>
                 </Div>
             </Col>
             <Col className="gutter-row" span={12}>
                 <Div>
-                    <img src={require('../../img/girlatcafe.png')} alt=" "></img>
+                    <img src={require('../../img/milano.jpeg')} alt=" "></img>
                     <Div2>
-                        <p>girl at cafe</p>
-                        <p>ink and gouache on paper</p>
-                        <a className="info-link" href="https://www.etsy.com/listing/797407812/girl-at-cafe?ref=shop_home_active_24&frs=1" target="_blank" rel="noopener noreferrer">purchase on Etsy</a>
+                        <p>milano</p>
+                        <p>acrylic on stretched canvas</p>
+                        {/* <a className="info-link" href="https://www.etsy.com/listing/797407812/girl-at-cafe?ref=shop_home_active_24&frs=1" target="_blank" rel="noopener noreferrer">purchase on Etsy</a> */}
                     </Div2>
                 </Div>
             </Col>
-            
+
         </Row>
         <Row gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }}>
             <Col className="gutter-row" span={12}>
                 <Div>
-                    <img src={require('../../img/girlsitting2019.png')} alt=" "></img>
+                    <img src={require('../../img/rythmedecouleurII.jpg')} alt=" "></img>
                     <Div2>
-                        <p>girl sitting</p>
-                        <p>ink and gouache on paper</p>
-                        <a className="info-link" href="https://www.etsy.com/listing/822984031/girl-sitting?ref=shop_home_active_10&frs=1" target="_blank" rel="noopener noreferrer">purchase on Etsy</a>
+                        <p>rythme de couleur</p>
+                        <p>acrylic on stretched canvas</p>
+                        {/* <a className="info-link" href="https://www.etsy.com/listing/822984031/girl-sitting?ref=shop_home_active_10&frs=1" target="_blank" rel="noopener noreferrer">purchase on Etsy</a> */}
                     </Div2>
                 </Div>
             </Col>
-            <Col className="gutter-row" span={12}>
+            {/* <Col className="gutter-row" span={12}>
                 <Div>
                     <img src={require('../../img/girlwithfruit.png')} alt=" "></img>
                     <Div2>
@@ -46,17 +46,17 @@ const TiledImages = () => (
                         <a className="info-link" href="https://www.etsy.com/listing/809084410/girl-holding-fruit?ref=shop_home_active_11&frs=1" target="_blank" rel="noopener noreferrer">purchase on Etsy</a>
                     </Div2>
                 </Div>
-            </Col>
-            </Row>
-        <Row gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }}>
+            </Col> */}
+        </Row>
+        {/* <Row gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }}>
             <Col className="gutter-row" span={12}>
                 <Div>
                     <img src={require('../../img/girlinpool2019.png')} alt=" "></img>
                     <Div2>
                         <p>girl in pool</p>
-                        <p>ink and gouache on paper</p>
+                        <p>ink and gouache on paper</p> */}
                         {/* <a className="info-link" href="#" target="_blank">www.etsylink.com</a> */}
-                    </Div2>
+                    {/* </Div2>
                 </Div>
             </Col>
             <Col className="gutter-row" span={12}>
@@ -86,12 +86,12 @@ const TiledImages = () => (
                     <img src={require('../../img/summerroses2020.png')} alt=" "></img>
                     <Div2>
                         <p>summer roses</p>
-                        <p>ink and gouache on paper</p>
+                        <p>ink and gouache on paper</p> */}
                         {/* <a className="info-link" href="#" target="_blank">www.etsylink.com</a> */}
-                    </Div2>
+                    {/* </Div2>
                 </Div>
             </Col>
-        </Row>
+        </Row> */}
     </div>
 )
 
@@ -138,4 +138,4 @@ class Div2 extends React.Component {
     }
 }
 
-export default TiledImages;
+export default DrawingsTiledImages;
