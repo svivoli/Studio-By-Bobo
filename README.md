@@ -1,9 +1,11 @@
-## Studio Bobo
+# Studio Bobo
 
 ## Description
+
 Website built for Britt Bobo as a portfolio space to showcase her artistic identity and provide a space for inquiries for commissions. Future development will incorporate the ability to purchase pieces directly from the site.
 
 ## Modules/Technologies
+
 - React
 - Express
 - Bootstrap
@@ -11,8 +13,10 @@ Website built for Britt Bobo as a portfolio space to showcase her artistic ident
 - UIKit
 - Material UI
 - React Admin
+- Squarespace
 
 ## Credits
+
 - The navigation menu was created using a combination of components from Material UI and React Admin.
 See code sources below.
 Material UI (nested-list logic) - https://material-ui.com/components/lists/#nested-list
