@@ -2,9 +2,10 @@
 
 ## Project Links
 
-[Live Site](https://glacial-scrubland-84963.herokuapp.com/)  
-* Live site was created using a second repository (https://github.com/svivoli/StudioBobo) after facing issues deploying this repository to Heroku.  
-[GitHub Repository](https://github.com/svivoli/Studio-By-Bobo)
+[Live Site](https://glacial-scrubland-84963.herokuapp.com/)    
+[GitHub Repository](https://github.com/svivoli/Studio-By-Bobo)  
+
+* Live site was created using a second repository (https://github.com/svivoli/StudioBobo) after facing issues deploying this repository to Heroku.
 
 ## Description
 
