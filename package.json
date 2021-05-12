@@ -28,7 +28,7 @@
     "cors": "^2.8.5",
     "express": "^4.16.3",
     "material-ui": "^0.20.2",
-    "nodemailer": "^6.4.10",
+    "nodemailer": "^6.4.16",
     "path": "^0.12.7",
     "progress": "^2.0.3",
     "react-admin": "^3.6.1",
